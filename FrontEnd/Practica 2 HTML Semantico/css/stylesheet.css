@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color:white;
+}
+header{
+    background-color: #10377a;
+}
+nav{
+    background-color: 	#fab703;
+}
+section{
+    background-color: 	#a9201d;
+}
+aside{
+    background-color: #632727;
+}
+img{
+width: 5cm;
+height: 5cm;
+}
+p{
+    color: aliceblue;
+}

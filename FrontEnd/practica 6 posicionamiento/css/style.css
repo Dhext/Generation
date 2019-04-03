@@ -1,0 +1,23 @@
+body{
+    
+    background: blue url(../image/pixels_form_colorful_shiny_15693_300x225.jpg) no-repeat top right;
+}
+div
+{
+    width: 400px;
+    height: 600px;
+   border-radius:16px;  
+    background: red url(../image/pixels_form_colorful_shiny_15693_300x225.jpg) 20% 0% repeat-y fixed content-box padding-box;
+}
+li{
+    margin: 5px; 
+    display: inline;
+    list-style: none;
+}
+.list{
+    margin-top: 20px;
+    background-color: white;
+    border: 16px;
+    height: 40px;
+    width: 205px;
+}

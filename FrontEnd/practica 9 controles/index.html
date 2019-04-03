@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Datos Personales</h2>
+        </div>
+        <div class="row">
+            <form action="" method="post">
+                <div class="form-group">
+                    <p>
+                        <label for="textnombre">Nombre: </label>
+                        <input type="text" class="form-control" name="textNombre" id="textNombre">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <label for="textapellidos">Apellido: </label>
+                        <input type="text" class="form-control" name="textApellidos" id="textApellidos">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <input type="submit" value="Enviar" class="btn btn-primary">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <p class="h2" >Selecciona tu pizza</p>
+                    <div class="radio">
+                            <input type="radio" name="rdbPizzas" id="rdbPizzas"><label for="rdbPizzas"> peperoni</label>
+                    </div>
+                    <div class="radio">
+                            <input type="radio" name="rdbPizzas" id="rdbPizzasMex"><label for="rdbPizzasMex"> mexicana</label>
+                    </div>
+                    <div class="radio">
+                            <input type="radio" name="rdbPizzas" id="rdbPizzasHaw"><label for="rdbPizzasHaw"> hawaiana</label>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu decendente</button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Inicio</a>
+                        <a class="dropdown-item" href="#">Noticias</a>
+                        <a class="dropdown-item" href="#">Footer</a>
+                      </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

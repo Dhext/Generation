@@ -1,0 +1,34 @@
+h2{
+    color: black;
+    margin-top: 3%;
+    text-align: center;
+}
+img{
+    height: 96px;
+    width: 96px;
+    margin: 10px;
+}
+
+li{
+    
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+}
+header{
+    border: 1px solid black;
+}
+nav{
+    border: 1px solid black;
+}
+section{
+    border: 1px solid black;
+}
+footer{
+    border: 1px solid black;
+}
+
